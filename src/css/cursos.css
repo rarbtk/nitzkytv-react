@@ -17,3 +17,23 @@ display: flex;
 .textos p{
     margin-top: 1%;
 }
+
+.container img{
+    border: solid royalblue 1px;
+    width: 250px;
+    height: 150px;
+} 
+
+.botones button{
+border:none;
+background-color: royalblue;
+width: 70px;
+height: 30px;
+margin-top: 10px;
+border-radius: 5px;
+}
+.margin-left{ margin-left: 10px}
+
+.botones :hover{
+    background-color: red;
+}

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../css/inicio.css" 
+import "../css/header.css" 
 
 class Micomponente extends Component{
 
@@ -10,8 +10,8 @@ render(){
         <header className="header">
         <a href="/"><li>Inicio</li></a>
         <a href="/cursos"> <li>Cursos</li></a>
-        <a href="google.com"><li>Contacto</li></a>
-        <a href="google.com"><li>Nosotros</li></a>
+        <a href="/contacto"><li>Contacto</li></a>
+        <a href="/nosotros"><li>Nosotros</li></a>
 
         
 

@@ -7,20 +7,26 @@ class Cursos extends Component {
     return (
       <React.Fragment>
           
-        <div className="container">
-          <img src={cursos[0].imagen} />
-          <div className="textos">
-            <h1>{cursos[0].nombre}</h1>
-            <p>{cursos[0].descripcion}</p>
-          </div>
-        </div>
-<ul>
+       
+
     {
     cursos.map(x =>{
-            return 
+            return <div className="container">
+            <img src={x.imagen}  alt=""/>
+            <div className="textos">
+              <h1>{x.nombre}</h1>
+              <p>{x.descripcion}</p>
+              <div className="botones">
+              <button>Comprar</button>
+              <button className="margin-left">Regalar</button>
+              </div>
+              
+            </div>
+            
+          </div>
         })
     }
-</ul>
+
         
       </React.Fragment>
     );

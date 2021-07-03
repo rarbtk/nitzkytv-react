@@ -1,6 +1,7 @@
 import Micomponente  from './components/Micomponente';
 import Cursos from './components/Cursos';
 import React from "react";
+import Inicio from "./components/Inicio";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,12 +14,19 @@ return (
 <Router>
 <div>
 <Micomponente/>
+
+
   <Switch>
     <Route path="/cursos">
 
     <Cursos/>
+    
 
     </Route>
+    <Router path="/">
+    <Inicio/>
+
+    </Router>
   </Switch>
 
 </div>
