@@ -9,7 +9,7 @@ class Inicio extends Component {
 <React.Fragment>
 
     <div className="texto">
-    <img src={fondo}/>
+    <img src={fondo} alt="hello"/>
     <h1>Somos una empresa dedicada a la capacitacion de personal</h1>
     <p>En informática, la World Wide Web (WWW) o red informática mundial1​ es un sistema que funciona a través de internet, por el cual se pueden transmitir diversos tipos de datos a través del Protocolo de Transferencia de Hipertextos o HTTP, que son los enlaces de la página web.
 
